@@ -1,6 +1,6 @@
 # JetLog
 
-Aircraft maintenance tracking for a learning project. All aircraft, maintenance records, work orders, and users are simulated demo data. Not affiliated with Cathay Pacific.
+Aircraft maintenance tracking for my Aviation Database Administration - Final Project. All aircraft, maintenance records, work orders, and users are simulated demo data. Not affiliated with Cathay Pacific.
 
 ## Requirements
 
