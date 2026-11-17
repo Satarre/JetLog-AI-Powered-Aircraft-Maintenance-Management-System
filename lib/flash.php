@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+function flash(string $type, string $message): void
+{
+    $_SESSION['flash'][] = ['type' => $type, 'message' => $message];
+}
+
+function take_flashes(): array
+{
+    $flashes = $_SESSION['flash'] ?? [];
+    unset($_SESSION['flash']);
+
+    return $flashes;
+}
